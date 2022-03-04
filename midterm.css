@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Lobster&family=Roboto,wght@1,100&display=swap');
+
+
+
+.nav-title {
+    font-family: 'Be Vietnam Pro', sans-serif;   
+    
+    font-size: 30px;
+    
+}
+
+.button-style {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(33, 196, 0), rgb(0, 182, 30));
+    padding: 8px 25px;
+    color: white;
+    border-radius: 15px;
+}
+
+.logo-place{
+    text-align: right;
+    align-self: right;
+    display: inline-block;
+    right: 800px;
+
+}
+
+.nav-but{
+    align-items: right;
+    transform: scale(1.3);
+    transition: transform linear 2s;
+    border: 1px solid rgb(255, 255, 255);
+    background-image:linear-gradient(white,white);
+    font-weight: 100;
+}
+
+.collection {
+    padding: 15px;
+    border-radius: 6px;
+    background-color: white;
+    
+}
+
+.collection-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    
+}
+
+
+
+
+.collection:hover{
+    transform: scale(1.1);
+    transition: transform linear 1s;
+    border: 3px dashed rgb(230, 225, 217);
+}
+
+#collection-title {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.collection-image {
+    width: 50px;
+    height: 50px;
+}
+
+.collection-image:hover{
+    transform: scale(1.1);
+    transition: transform linear 1s;
+    border: 3px dashed rgb(230, 225, 217);
+}
+
+.footer{
+    padding-top:1px;
+    padding-bottom:7px;
+    background-color: rgb(80, 80, 80);
+    color:white;
+    text-align: center;
+   
+}
+
+
+#header{padding:20px 0;}
+
+#header nav{display:block; margin:10px 0 0 0; padding:20px 0; color:#C0BAB6; background-color:#f5ffe6;}
+#header nav ul{padding:0 20px;}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li.last{margin-right:0;}
+#header nav li a{color:#C0BAB6; background-color:#e3f0cf;}
+#header nav li a:hover{color:#FF9900; background-color:#e9f3d9;}
